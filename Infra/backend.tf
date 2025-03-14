@@ -1,8 +1,8 @@
 terraform {
   backend "s3" {
-    bucket         = "nsh-usecase1"
+    bucket         = "aki1920"
     key            = "env:/dev/uc3/terraform.tfstate"
-    region         = "us-west-2"
+    region         = "us-east-1"
     dynamodb_table = "terraform-locks"
   }
 }
