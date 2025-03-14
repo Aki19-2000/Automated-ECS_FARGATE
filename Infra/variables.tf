@@ -19,7 +19,7 @@ variable "private_subnets" {
 variable "availability_zones" {
   description = "AWS availability zones"
   type        = list(string)
-  default     = ["us-west-2a", "us-west-2b"]
+  default     = ["us-east-1a", "us-east-1b"]
 }
 
 variable "repo_name" {
